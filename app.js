@@ -7,7 +7,7 @@ const todoRouter = require('./routes/todo');
 
 const app = express();
 //Connect to MongoDB server
-mongoose.connect("mongodb://127.0.0.1:27017/TodoList",{
+mongoose.connect("mongodb+srv://Admin:Admi1234@cluster0.ivmippx.mongodb.net/TodoList",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 });
